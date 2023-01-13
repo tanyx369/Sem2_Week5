@@ -1,5 +1,3 @@
-// All the class are inherit from Object class
-
 public abstract class Employee
 {
    
