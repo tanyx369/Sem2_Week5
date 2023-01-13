@@ -53,7 +53,6 @@ public class Extra2 {
 		Scanner scan ;
 		String detail = "";	
 		if(gender.equals("M")) {
-			//male.contains(name);
 			for(int x = 0 ; x < male.size() ; x ++) {
 				scan = new Scanner(male.get(x));
 				String get = scan.next();
