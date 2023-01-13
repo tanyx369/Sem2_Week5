@@ -39,13 +39,13 @@ public class Extra3 {
 	}
 	
 	public static void calculation() {
-		System.out.println("Total salary for all assistant professor: " + total_a1);
-		System.out.println("Total salary for all associate professor: " + total_a2);
-		System.out.println("Total salary for all full-time professor: " + total_a3);
+		System.out.println("Total salary for all assistant professor: " + total_a1 + "\n");
+		System.out.println("Total salary for all associate professor: " + total_a2 + "\n" );
+		System.out.println("Total salary for all full-time professor: " + total_a3 + "\n" );
 		
-		System.out.println("Average salary for all assistant professor: " + (total_a1 / num_a1));
-		System.out.println("Average salary for all associate professor: " + (total_a2 / num_a2));
-		System.out.println("Average salary for all full-time professor: " + (total_a3 / num_a3));
+		System.out.println("Average salary for all assistant professor: " + (total_a1 / num_a1) + "\n");
+		System.out.println("Average salary for all associate professor: " + (total_a2 / num_a2) + "\n");
+		System.out.println("Average salary for all full-time professor: " + (total_a3 / num_a3) + "\n");
 	}
 	
 	public static void main(String[] args) throws FileNotFoundException {
