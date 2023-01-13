@@ -1,7 +1,7 @@
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
-// yes = 0 , no = 1 , cancel = 2 , x = -1
+
 
 public class CurrencyConvert
 {
@@ -66,17 +66,6 @@ public class CurrencyConvert
 		
 		
 		
-		/*
-	
-		catch (NullPointerException npe) {
-			
-				JOptionPane.showMessageDialog(null, "There is no value entered", "CURRENCY CONVERTER",JOptionPane.INFORMATION_MESSAGE );
-				status = false;
-				GUI();
-			
-		}
-		*/
-		
 		
 		if(status) {
 			calculation();
@@ -121,10 +110,8 @@ public class CurrencyConvert
     }
     
     public static void main(String[] args) {
-    	//System.out.println(JOptionPane.showInputDialog(null ,"Enter the amount to convert (USD - RM) " , "CURRENCY CONVERTER", JOptionPane.INFORMATION_MESSAGE  ));
+    	
     	GUI();
-    	//String[] selection = {"USD to MYR" , "MYR to USD"}; 
-    	//System.out.println(JOptionPane.showInputDialog(null, "Welcome to Currency Converter" , "CURRENCY CONVERTER", JOptionPane.INFORMATION_MESSAGE , null , selection, 0));
     
     }
 }
