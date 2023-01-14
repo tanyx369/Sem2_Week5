@@ -61,7 +61,7 @@ public class Extra2 {
 				String get = scan.next();
 				if(get.equals(name)) {
 					name = get;
-					m_rank = scan.nextInt(); // 不能放在if else 外面, for loop 会跑到最后一个, rank 拿到的是最后一个的
+					m_rank = scan.nextInt(); 
 				}
 				
 			}
