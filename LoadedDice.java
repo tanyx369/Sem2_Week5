@@ -12,7 +12,7 @@ public class LoadedDice extends Random
     	int result = ran.nextInt(2);
     	
     	if(result == 1) {
-    		return 5;
+    		return num-1;
     	}
     	else {
     		return ran.nextInt(num);
